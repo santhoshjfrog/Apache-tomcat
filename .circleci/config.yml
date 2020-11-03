@@ -5,8 +5,8 @@ version: 2
 jobs:
   foo:
     docker:
-      - image: hashicorp.jfrog.io/docker/minio/mc
-    parallelism: 10
+      - image: santhosh123.jfrog.io/docker/mysql
+    parallelism: 4
     steps:
       - checkout
       - run: echo Hello, world. Yay
