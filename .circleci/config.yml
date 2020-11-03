@@ -2,7 +2,7 @@ version: 2
 jobs:
   foo:
     docker:
-      - image: santhosh123.jfrog.io/docker/ubuntu:bionic
+      - image: santhosh123.jfrog.io/docker/ubunut:bionic
     parallelism: 4
     steps:
       - checkout
